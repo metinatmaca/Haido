@@ -4,24 +4,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta charset="utf-8"/>
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static',filename='haido.ico') }}"/>
 	<title>Haido!</title>
 	<style>
-		p{text-align:right;margin-top:3em;font-weight:bold;font-size:150%;}			
+		h1,h2{
+			font-size:300%;
+			color:black;
+		}
 	</style>
 </head>
 
-<body>
+<body style="background-image:url(../static/css/haido.jpg);background-size:no-cover;background-repeat:repeat;">
 	<div id="map">
 		<a class="current" href="./" style="float:left;">Haido!</a>
 	</div>
 	
-	<h3 style="text-align:center;font-size:400%;">What is Haido?</h3>
-	<h4 style="text-align:center;font-size:200%;">Haido is an app, which you can trade papers on and earn Haido tokens as rewards.</h4>
-	<h3 style="text-align:center;font-size:400%;">Who are we?</h3>
-	<h4 style="text-align:center;font-size:200%;">We are students at Istanbul Technical University and we study computer engineering. This is our project for Technology & Innovation Management for Information Technologies lecture. Our group members are: Metin Muhammed Atmaca, Ömer Faruk Davarcı, Semih Tutuş.</h4>
-	<h3 style="text-align:center;font-size:400%;">Get in contact:</h3>
-	<h4 style="text-align:center;font-size:200%;">Metin M. Atmaca: atmacam16@itu.edu.tr</h4>
-	<h4 style="text-align:center;font-size:200%;">Omer Faruk Davarci: davarci@itu.edu.tr</h4>
-	<h4 style="text-align:center;font-size:200%;">Semih Tutuş: tutus@itu.edu.tr</h4>
+	<h1 style="text-align:center;">What is Haido?</h1>
+	<h2 style="text-align:center;">Haido is an app, which you can trade papers on and earn Haido tokens as rewards.</h2>
+	<h1 style="text-align:center;">Who are we?</h1>
+	<h2 style="text-align:center;">We are students at Istanbul Technical University and we study computer engineering. This is our project for Technology & Innovation Management for Information Technologies lecture. Our group members are: Metin Muhammed Atmaca, Ömer Faruk Davarcı, Semih Tutuş.</h2>
+	<h1 style="text-align:center;">Get in contact:</h1>
+	<h2 style="text-align:center;">Metin M. Atmaca: atmacam16@itu.edu.tr</h2>
+	<h2 style="text-align:center;">Ömer Faruk Davarcı: davarci@itu.edu.tr</h2>
+	<h2 style="text-align:center;">Semih Tutuş: tutus@itu.edu.tr</h2>
 </body>
 </html>
