@@ -8,17 +8,21 @@
 	<title>Haido!</title>
 	<style>
 		h1,h2{
-			font-size:300%;
-			color:black;
+			font-family:"calibri","sans serif";
+			font-size:200%;
+			color:rgb(0, 0, 0);
+		}
+		h2{
+			font-weight: normal;
 		}
 	</style>
 </head>
 
-<body style="background-image:url(../static/css/haido.jpg);background-size:no-cover;background-repeat:repeat;">
+<body>
 	<div id="map">
 		<a class="current" href="./" style="float:left;">Haido!</a>
 	</div>
-	
+	<img src="{{url_for('static',filename='css/haido.jpg')}}" style="float:right;clear:right;margin-left:20px;margin-top: 30px;">
 	<h1 style="text-align:center;">What is Haido?</h1>
 	<h2 style="text-align:center;">Haido is an app, which you can trade papers on and earn Haido tokens as rewards.</h2>
 	<h1 style="text-align:center;">Who are we?</h1>
